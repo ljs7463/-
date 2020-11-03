@@ -126,6 +126,7 @@ train 폴더에 들어가서  아까 위에서 말한것을 설명할 수 있게
 
 다시 x64 위치에서 cmd창을 열어준다
 
-코드를 입력한다 --> darknet.exe detector test data/obj.data data/yolo-
+코드를 입력한다 --> darknet.exe detector test data/obj.data data/yolo-obj.cfg data/(가중치파일이름) data/obj/({사진파일이름}.jpg)
 
+이렇게하면 test가 완료 됩니다!!
 
