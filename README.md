@@ -7,7 +7,7 @@
 
 
 
-# 구현 과정 설명
+# 구현 과정 설명 ( 참고이미지는 PPT파일로 만들어두었습니다)
 1. 깃 허브 저장소에서 darknet 압축파일을 다운 받는다.
 https://github.com/AlexeyAB/darknet
 
