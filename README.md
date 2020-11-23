@@ -32,7 +32,7 @@ Yolov4-custom.cfg파일이 있는데 이것을 이름을 바꿔주는데 나의 
  - max_batches = (클래스 수 * 2000)  #본인의 경우 한 개의 클래스를 학습 시키기 때문     에 
  - (1 * 2000) = 2000 을 넣어주었다. 
  - steps = max_batches 의 80% ,max_batches 의 90% #본인의 경우 1600, 1800
- - wdth, height = 각각 416 또는 32의 배수로 설정 
+ - width, height = 각각 416 또는 32의 배수로 설정 
  - (ctrl + f) 누른후 검색바에 yolo검색 -> [yolo]아래에 있는 classes를 본인의 클래스 개수     입력
  - [yolo] 바로 위에 있는 [convolutional] 에 포함되어있는 filters 의개수를 (classes +5) *3
    #본인의 경우 (1+5)*3 = 18
