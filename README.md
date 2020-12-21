@@ -143,7 +143,7 @@ train 폴더에 들어가서  아까 위에서 말한것을 설명할 수 있게
 
 이렇게하면 test가 완료 됩니다!!
 
-# 동영상 test
+### 동영상 test
 darknet.exe detector demo data/obj.data data/yolo-obj.cfg data/(가중치파일이름) data/({동영상파일명}.mp4) 
 
 이미지, 동영상 모두 확장자는 개인의 파일에 맞게 하시면 됩니다!!
