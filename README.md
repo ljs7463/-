@@ -130,9 +130,9 @@ train 폴더에 들어가서  아까 위에서 말한것을 설명할 수 있게
 
  - 1단계 : C:\darknet-master\darknet-master\build\darknet\x64 (사람마다 경로가 다르지만 x64폴더까지 이동후 경로를 다지우고 cmd 를 입력하            게 되면 이 경로로 바로 이동해 준다 )
  - 2단계 : 실행을 위한 코드를 작성해 준다 --> 
- '''python 
+ ```python
  darknet.exe detector train data/obj.data data/yolo-obj.cfg data/(가중치파일명)
- '''
+ ```
  
  - 3단계 : 엔터를 치면 학습이 시작된다.
  
@@ -144,16 +144,18 @@ train 폴더에 들어가서  아까 위에서 말한것을 설명할 수 있게
 다시 x64 위치에서 cmd창을 열어준다
 
 코드를 입력한다 --> 
-'''python
+```python
 darknet.exe detector test data/obj.data data/yolo-obj.cfg data/(가중치파일이름) data/obj/({사진파일이름}.jpg)
-'''
+```
+
+
 이렇게하면 test가 완료 됩니다!!
 
 ### 동영상 test
 
-'''python
+```python
 darknet.exe detector demo data/obj.data data/yolo-obj.cfg data/(가중치파일이름) data/({동영상파일명}.mp4) 
-'''
+```
 
 이미지, 동영상 모두 확장자는 개인의 파일에 맞게 하시면 됩니다!!
 
