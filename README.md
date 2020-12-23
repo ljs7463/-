@@ -165,3 +165,4 @@ darknet.exe detector demo data/obj.data data/yolo-obj.cfg data/(가중치파일�
 
 
 # OpenCV에서 구현하는 방법
+###### (기본데이터셋 이용)
